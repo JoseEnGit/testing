@@ -32,7 +32,6 @@ public class MyRevenueCalculatorTest {
 
     revenue = myRevenueCalculator.calculateRevenue(marginPercentage,costOfGoods);
 
-//    assertThat(new BigDecimal("500"),  Matchers.comparesEqualTo(revenue));
 
     assertTrue(new BigDecimal("500").compareTo(revenue) == 0);
 
@@ -44,7 +43,6 @@ public class MyRevenueCalculatorTest {
 
     revenue = myRevenueCalculator.calculateRevenue(marginPercentage,costOfGoods);
 
-//    assertThat(new BigDecimal("500"),  Matchers.comparesEqualTo(revenue));
 
     assertTrue(new BigDecimal("536.91").compareTo(revenue) == 0);
 

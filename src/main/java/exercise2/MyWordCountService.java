@@ -21,7 +21,7 @@ public class MyWordCountService implements WordCountService {
 
     // Check for no words then return null
     if(! (text.matches(".*[a-z].*") || text.matches(".*[0-9].*")) )
-      return null; // Returns map empty
+      return null;
 
     // Load words into an array
     String[] arrStrWords =  text.split("\\s+");
